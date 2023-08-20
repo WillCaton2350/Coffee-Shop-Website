@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
+    /*background-image: url(/backend/frontend/static/coffeeBG.png);*/
+}
+
+.navbar,h1,.list,
+.list-item,
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color:honeydew;
+}
+
+.logoName,a{
+    text-decoration: none;
+    color: #141414;
+}
+h1{
+    margin-right: 280px;
+    font-family:cursive;
+    font-size: 40px;
+}
+h3{
+    margin-right: 130px;
+    font-family:cursive;
+    font-size: 25px;
+    background-color:honeydew;
+}
+
+.img-container,img{
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    background-color: transparent;
+    margin-bottom: -450px;
+}
+
+.content,
+.text-content,
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: -200px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+}
+
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: #fff;
+    background-color: burlywood;
+    margin-bottom: -95px;
+    margin-top: 50px;
+}
+
+.team-content,
+.text-team-content,
+p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+    margin-left: 8px;
+}
+
+.text-team-content2,
+p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+    margin-left: 8px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    color: #141414;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.text-team-content2,.btn2{
+    display: flex;
+    justify-content: center;
+    color: #141414;
+    text-decoration: none;
+    margin-left:30px;
+    margin-top: -20px;
+}
+
+
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #fff;
+    background-color: burlywood;
+    margin-top: 570px;
+}
+
+
+.us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    background-color: burlywood;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+
