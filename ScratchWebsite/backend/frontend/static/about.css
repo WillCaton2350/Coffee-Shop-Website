@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
+}
+
+.navbar,h1,.list,
+.list-item,
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color:honeydew;
+}
+
+
+
+.logoName,a{
+    display: flex;
+    text-decoration: none;
+    color: #141414;
+}
+h1{
+    margin-right: 280px;
+    font-family:cursive;
+    font-size: 40px;
+}
+h3{
+    margin-right: 130px;
+    font-family:cursive;
+    font-size: 25px;
+    background-color:honeydew;
+}
+
+.img-container6,.img6{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: transparent;
+    margin-bottom: -200px;
+    margin-left: -600px;
+}
+
+.img-container8,.img8{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    background-color: transparent;
+    margin-bottom: -130px;
+    margin-left: 200px;
+}
+
+
+.content,
+.text-content,
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    margin-bottom: -370px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+    background-color: transparent;
+    margin-left: -500px;
+}
+
+
+
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: #141414;
+    background-color: transparent;
+    margin-bottom: -95px;
+    margin-top: 200px;
+}
+
+.content2,
+.text-content2,
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    margin-bottom: -190px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+    background-color: transparent;
+    margin-left: 160px;
+}
+
+
+
+.offer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: #141414;
+    background-color: transparent;
+    margin-bottom: -95px;
+    margin-top: 200px;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    font-size: 3.3rem;
+    margin-top: 450px;
+    margin-left: 150px;
+    background-color: transparent;
+
+}
+
+
+.content3,
+.text-content3,
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    margin-bottom: -150px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+    background-color: transparent;
+
+}
+.text-content3{
+    margin-left:-240px;
+    margin-top: -130px;
+}
+
+.img-container,img{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    background-color: transparent;
+    margin-bottom: -450px;
+}
+

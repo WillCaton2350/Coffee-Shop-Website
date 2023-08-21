@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #d6ae7b;
+    /*background-image: url(/backend/frontend/static/coffeeBG.png);*/
+}
+
+.navbar,h1,.list,
+.list-item,
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color:honeydew;
+}
+
+.logoName,a{
+    display: flex;
+    text-decoration: none;
+    color: #141414;
+}
+h1{
+    margin-right: 280px;
+    font-family:cursive;
+    font-size: 40px;
+}
+h3{
+    margin-right: 130px;
+    font-family:cursive;
+    font-size: 25px;
+    background-color:transparent;
+}
+
+
+
+.content,
+.text-content,
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: -230px;
+    font-size: 15px;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+}
+
+.offer{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    font-size: 55px;
+    color: #141414;
+    background-color: #d6ae7b;
+    margin-bottom: -95px;
+    margin-top: 50px;
+}
+
+strong,.team-content,
+.text-team-content,
+p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+    margin-left: 8px;
+}
+
+
+.img-container_C,.img_C{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: transparent;
+    margin-bottom: -450px;
+}
+.img_C{
+    margin-bottom: -700px;
+}
+
+
+
+
+
+
+
+
