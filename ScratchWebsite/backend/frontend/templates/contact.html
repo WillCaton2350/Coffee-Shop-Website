@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+     href="static/contact.css">
+    <title>Sign Up</title>
+
+    <!--TURN THIS INTO A SIGN 
+    UP EMAIL LIST INSTEAD OF LEAVING A 
+    REVIEW SO THE COFFEE SHOP CAN SEND 
+    THE NEW MEMBERS UODATES AND DEALS 
+    THAT ARE GOING ON-->
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logoName">𓎩
+          <a href="http://127.0.0.1:8000/">Coffee Shop</a></h1>
+        <h3>☕︎</h3>
+        <ul class="list">
+            <li class="list-item">
+                <a href="about.html">About</a>
+            </li>
+            <li class="list-item">
+                <a href="menu.html">Menu</a>
+            </li>
+            <li class="list-item">
+                <a href="contact.html">Register</a>
+            </li>
+            <li class="list-item">
+                <a href="sponsers.html">Sponsors</a>
+            </li>
+            <li class="list-item">
+                <a href="careers.html">Staff</a>
+            </li>
+        </ul>
+    </nav>
+        <h3 class="formName">~Register~</h3>
+        <form id="review_Form" method="POST" action="{% url 'reviewForm' %}">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="Sign up" id="submitForm">
+        </form>
+
+        <div class="img-container">
+            <img src="/static/coffeeBG.png" alt="Coffee Shop">
+        </div>
+        <script src="static/animate.js"></script>
+</body>
+</html>
