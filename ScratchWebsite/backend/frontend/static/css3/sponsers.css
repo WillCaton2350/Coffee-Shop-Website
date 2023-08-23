@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.navbar,h1,.list,
+.list-item,
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: transparent;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri, 
+    'Trebuchet MS', 
+    sans-serif;
+
+}
+.list-item,a:hover{
+    color: brown;
+    transform: translateY(-3px);
+}
+
+
+.logoName,a{
+    display: flex;
+    text-decoration: none;
+    color: #141414;
+}
+h1{
+    margin-right: 280px;
+    font-family:cursive;
+    font-size: 40px;
+}
+h3{
+    margin-right: 150px;
+    font-family:cursive;
+    font-size: 25px;
+    background-color:transparent;
+}
+
+.img-container,img{
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    background-color: transparent;
+    margin-bottom: -450px;
+}
+
+
+
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #141414;
+    background-color: transparent;
+    margin-bottom: -55px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+#founder{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 500px;
+}
+#sequoia{
+    display: flex;
+    margin-top: 135px;
+    margin-left: 100px;
+}
+#accel{
+    display: flex;
+    margin-top: 550px;
+    margin-left: 150px;
+}
+
+#ross{
+    display: flex;
+    margin-top: 550px;
+    margin-left: 540px;
+}
+
+#lion{
+    display: flex;
+    margin-top: 360px;
+    margin-left: 1110px;
+}
+
+#kitchen{
+    display: flex;
+    margin-top: 346px;
+    margin-left: 1050px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.offer {
+    animation: fadeIn 2s ease-in-out forwards; 
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .offer {
+        margin-top: 500px;
+    }
+
+    .logoName {
+        margin-right: 0;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    .content,
+    .content2,
+    .content3 {
+        margin-top: 20px;
+    }
+
+    strong,
+    p {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .text-content,
+    .content2,
+    .content3 {
+        display: none;
+    }
+    .offer{
+        margin-bottom: 100px;
+    }
+
+    #founder,
+    #accel,
+    #sequoia,
+    #kitchen,
+    #ross,
+    #lion{
+        display: none;
+    }
+    
+}
