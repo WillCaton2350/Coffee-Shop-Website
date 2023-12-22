@@ -1,2 +1,2 @@
 # Coffee-Shop-Website
-Coffee Shop website in Python and Django
+Coffee Shop website in Python, Django & MySQL Workbench
